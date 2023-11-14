@@ -1,0 +1,47 @@
+a{
+color: brown;
+text-decoration: none;
+
+}
+a:hover{
+    color: white;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    background-color: silver;
+}
+.button{
+background-color: aquamarine;
+padding: .5em .75em;
+border: none;
+border-radius:  .25em;
+color: white;
+
+
+
+}
+
+.button:hover{
+    background-color: aquamarine;
+    color: white;
+}
+.navbar{
+    border-bottom: 1px solid purple;
+    padding: .5em;
+}
+.navbar .container{
+    display: flex;
+  justify-content: space-between;
+align-items: center;
+}
+.navbar-nev{
+    display: flex;
+    list-style: none;
+    padding: 0;
+
+}.nav-item{
+    padding: .5em;
+    margin: 0 .5em;
+
+}
