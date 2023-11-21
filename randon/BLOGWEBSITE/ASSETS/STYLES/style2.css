@@ -9,10 +9,61 @@ a:hover{
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.5;
-    background-color: silver;
+    background-color: blanchedalmond;
 }
+
+h1, h2, h3, h4, h5, h6{
+    margin-top: 1rem;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    font-size:  .9em;
+    padding: 1.11em 0;
+}
+
+.blog-post header{
+text-align: center;
+margin-top: 4em;
+}
+.blog-post .category{
+    text-transform: uppercase;
+}
+
+.blog-post .title{
+    text-transform: capitalize;
+}
+
+.blog-post .image{
+    margin: 2em 0;
+}
+
+.blog-post .subtitle {
+    margin-top: 2em;
+}
+
+.blog-post .summary{
+    padding-left: 40px;
+
+}
+
+
+.blog-post .summary li{
+    margin-top: 1rem;
+}
+
+
+.rounded-image img{
+    display: block;
+    width: 100%;
+    border-radius: 8px;
+}
+
+
+
 .button{
-background-color: aquamarine;
+background-color: black;
 padding: .5em .75em;
 border: none;
 border-radius:  .25em;
